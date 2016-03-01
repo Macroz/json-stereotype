@@ -3,5 +3,5 @@
             [json-stereotype.core :refer :all]))
 
 (deftest stereotype-test
-  (is (= {:foo [{:a 1 :b 2}]}
-         (stereotype {:foo [{:a 1} {:b 2}]}))))
+  (is (= {:foo [{:a 1 :b 2 :c 3}]}
+         (stereotype {:foo [{:a 1} {:b 2 :c 3}]}))))
